@@ -22,11 +22,6 @@ Sultion Approach: Add the bits from right to left and keep track of carry
 
 from typing import List
 
-t = zip([1,2,3],[4,5,6,7,8]) # [(1,4),(2,5),(3,6)]
-
-
-
-
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         carry = 0
